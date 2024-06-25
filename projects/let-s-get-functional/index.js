@@ -161,6 +161,13 @@ var firstLetterCount = function(array, letter) {
     return count;
 }
 
+/**
+ * I: FUNCTION RECEIVES A AN ARRAY OF CUSTOMER OBJECTS, A STRING CUSTOMERNAME REPRESENTING A CUSTOMER'S NAME, AND A LETTER REPRESENTING THE FIRST LETTER OF A FRIEND'S NAME
+ * O: FUNCTION RETURNS A NUMBER REPRESENTING THE NUMBER OF FRIENDS CUSTOMERNAME HAS THAT START WITH LETTER
+ * C: N/A
+ * E: N/A
+ */
+
 var friendFirstLetterCount = function(customers, customerName, letter) {
     let count = 0;
     // Iterate through customers array
